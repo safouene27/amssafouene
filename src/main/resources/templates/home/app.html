@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body>
+<h1 align= "center"> Ma premiére view </h1>
+<h2 th:text="${name}"></h2>
+<h3 th:text="${myUniversite}"></h3>
+<h4 th:text="${mail}"></h4> 
+<h5 th:text="${telephone}"></h5> 
+<h6 align="center"> Liste des modules</h6>
+<ul>
+<li th:each="c:${cours}" th:text = "${c}">
+</li>
+</ul>
+</body>
+</html>

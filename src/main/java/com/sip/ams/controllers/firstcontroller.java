@@ -15,8 +15,8 @@ public class firstcontroller {
 {
 	String nom ="safouene nasri";
 	String universite = "ENSI";
-	String email = "safouenov@gmail.com";
-	String tel = "+21658623166";
+	String email = "saf@gmail.com";
+	String tel = "+21622563599";
 
 
 	m.addAttribute("name",nom);

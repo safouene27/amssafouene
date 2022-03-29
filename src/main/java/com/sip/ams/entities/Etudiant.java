@@ -6,6 +6,12 @@ public class Etudiant {
 	private String email;
 	private String adresse;
 	private int tel;
+	
+	@Override
+	public String toString() {
+		return "Etudiant [nom=" + nom + ", age=" + age + ", email=" + email + ", adresse=" + adresse + ", tel=" + tel
+				+ "]";
+	}
 	public Etudiant(String nom, int age, String email, String adresse, int tel) {
 		this.nom = nom;
 		this.age = age;
